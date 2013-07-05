@@ -1,0 +1,956 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Simulator">
+      <UniqueIdentifier>{9d3f9452-d7bd-439a-aebd-9dcf767bebaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Simulator">
+      <UniqueIdentifier>{f83d467c-63e8-4c32-b482-9cdf188c4532}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Exception">
+      <UniqueIdentifier>{52a535a3-e838-4de6-849a-393caeb0adaf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Exception">
+      <UniqueIdentifier>{ac7036be-d43d-4d54-abe5-b5da5ac7f390}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Control">
+      <UniqueIdentifier>{0eb8e1ea-18b6-4750-b594-bfaf52111c1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Control">
+      <UniqueIdentifier>{a05ddf7a-a99e-4deb-8144-2f8f527ac9cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Numeric">
+      <UniqueIdentifier>{8cc9f97c-5a44-4a66-8c1f-dfac1e4c5e1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Numeric\Special">
+      <UniqueIdentifier>{235ea2d7-4b92-4b3d-ba70-a06a99464010}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Numeric\Random">
+      <UniqueIdentifier>{804a3371-9791-4885-9239-b13f6e44af0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Numeric">
+      <UniqueIdentifier>{a5a4f205-d804-4383-adb7-4223609c40f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Numeric\Random">
+      <UniqueIdentifier>{16a0e4e2-377c-480d-8129-136c119ff6a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Numeric\Special">
+      <UniqueIdentifier>{24f086d8-20c6-4f19-9292-b398d4e093a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Numeric\Random\Distribution">
+      <UniqueIdentifier>{b33626c3-3c9a-4126-b7a7-34fbe19b7e43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Numeric\Random\Distribution">
+      <UniqueIdentifier>{cfbff1c1-9ae5-4389-8e91-56aa2f893329}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Numeric\Random\Distribution\Continuous">
+      <UniqueIdentifier>{aa2be62f-004a-42ac-a4ce-6ce35d48634c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Numeric\Random\Distribution\Continuous">
+      <UniqueIdentifier>{e56f0384-5ef3-4ad7-b3c8-2bf5ac84d75c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Numeric\Random\Distribution\Discrete">
+      <UniqueIdentifier>{88987df3-508e-4004-95f5-9da1e31a2258}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Numeric\Random\Distribution\Discrete">
+      <UniqueIdentifier>{e3343af8-4b4d-419f-ae41-27542cdda3cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\IO">
+      <UniqueIdentifier>{9c2733bc-800b-4a70-ae47-c2ce70856c76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\IO">
+      <UniqueIdentifier>{b30c0f46-5144-46b9-b80c-fb14cc802bbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Exception\Research">
+      <UniqueIdentifier>{f6fb9332-d0a3-485e-b5b0-3ce08882a7f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Exception\Research">
+      <UniqueIdentifier>{b06e0519-b151-4dc4-beac-ced41bd22617}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Memory">
+      <UniqueIdentifier>{d2c3f34a-7e9c-468f-970b-c20441e34ac6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Memory">
+      <UniqueIdentifier>{40e3acf8-37f3-45b9-bf18-43a54871fcb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\IO\Config">
+      <UniqueIdentifier>{258485ed-4eff-44b1-8921-14170bbc4750}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\IO\Config">
+      <UniqueIdentifier>{9171cf55-8ab0-4bce-8f9d-aa7a863f1012}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\IO\Stream">
+      <UniqueIdentifier>{f4696485-be23-4b4e-8328-809a643145aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\IO\Stream">
+      <UniqueIdentifier>{62f6b044-688e-44da-aa92-4567f83f8678}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Numeric\Queuing">
+      <UniqueIdentifier>{f0cae87b-c46b-4eba-8c68-3c76b4e9d20b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Numeric\Queuing">
+      <UniqueIdentifier>{b23cbf95-d829-4218-9004-d30e1a766752}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Numeric\Statistic">
+      <UniqueIdentifier>{20214bee-b540-43f2-82d0-4e08286abf2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Numeric\Statistic">
+      <UniqueIdentifier>{39f999e1-f6bc-425c-b3c8-ce322a331e7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Numeric\Equation">
+      <UniqueIdentifier>{84519e7d-3376-4ad5-b96a-7e26c79c26c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Numeric\Equation">
+      <UniqueIdentifier>{cd49910a-2328-4b95-99c6-fd88c942e37c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Numeric\Statistic\Fitting">
+      <UniqueIdentifier>{c4eb6504-7cc1-4031-9853-dd7a3fdc32a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Numeric\Statistic\Fitting">
+      <UniqueIdentifier>{888c26f3-08b7-4c9f-882f-fbbf6ddd3725}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Numeric\Signal processing">
+      <UniqueIdentifier>{42219309-6a5b-41c3-ba3a-644465a9d834}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Numeric\Signal processing">
+      <UniqueIdentifier>{7e74026f-fc6d-4756-83b2-c763ec7cc22e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Numeric\Signal processing\Filter">
+      <UniqueIdentifier>{ec40be6a-9ed8-4732-b789-dd22510c46cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Numeric\Signal processing\Filter">
+      <UniqueIdentifier>{b5c69501-3bb4-4574-bf92-2f67951ed1af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Numeric\Signal processing\Signal">
+      <UniqueIdentifier>{aae0c7ad-f0cf-4229-bb30-0463795d1e33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Numeric\Signal processing\Signal">
+      <UniqueIdentifier>{8407fafd-b0ff-469c-9137-bac3c19d063d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\System">
+      <UniqueIdentifier>{699429a6-0e82-41cf-9470-4588d1315999}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\System\Worker">
+      <UniqueIdentifier>{4d6419a3-ca78-4900-a05e-5888f5e91518}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\System">
+      <UniqueIdentifier>{abed2a06-c80c-4922-86ab-eb4138f22377}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\System\Worker">
+      <UniqueIdentifier>{77f0debc-31f8-48d0-a6bb-466af6053737}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\System\Profiler">
+      <UniqueIdentifier>{bcb1b1c9-59be-4906-b4a7-649b04de6a95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\System\Profiler">
+      <UniqueIdentifier>{53814a00-463e-44d0-bae1-b5f2021c9917}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Events">
+      <UniqueIdentifier>{dfc66bd3-3bef-420f-9bdb-996ebe53078b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Events">
+      <UniqueIdentifier>{93135863-8c8c-403e-ade6-2bfdf3f3887c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Network">
+      <UniqueIdentifier>{d2e9730b-3d24-4827-9840-aa98525a33d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Network\Topology">
+      <UniqueIdentifier>{0d02b5b6-4a99-480c-b296-8603359df40e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Network\Topology\Brite">
+      <UniqueIdentifier>{d892ab25-c939-40ce-b07b-51b47508044b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Network\Multicast">
+      <UniqueIdentifier>{0bc0793e-afbf-4e11-9da1-9d2e926c912f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Network\Multicast\Brite">
+      <UniqueIdentifier>{90123cd6-9fc5-48a3-a2f5-ecaadef6e015}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Network\Objects">
+      <UniqueIdentifier>{1ce7f213-7ff7-4c77-a211-2e00874b3902}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Network\Objects\Links">
+      <UniqueIdentifier>{b46fcc96-d9ad-4b83-831a-595028796118}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Network\Objects\Nodes">
+      <UniqueIdentifier>{c4a16db1-865f-465c-9484-6fbdd0dc4834}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Network\Objects\Nodes\Hosts">
+      <UniqueIdentifier>{4c5ad2a8-d4a9-41ec-b15c-66726c7a18b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Network\Objects\Nodes\Router">
+      <UniqueIdentifier>{68de9e41-c3db-42d1-8dde-42641277a6b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Network\Layers">
+      <UniqueIdentifier>{98ffd93b-ebcc-4c24-9ec2-63793f691a77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Network\Layers\Tfrc">
+      <UniqueIdentifier>{fef6f752-ea51-4a3f-a4d9-256217355650}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Network\Packets">
+      <UniqueIdentifier>{77e762bb-eb54-433d-b477-508cb4f6b896}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Network\Packets\Trfc">
+      <UniqueIdentifier>{be2d65bc-914a-433a-be20-59b29e7f700b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Network\Route">
+      <UniqueIdentifier>{cad69906-87e7-486a-a61a-8c8afe206120}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Network\Address">
+      <UniqueIdentifier>{d17b7280-c629-4ebf-8ad3-e185d61c3f26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Network">
+      <UniqueIdentifier>{81130aff-8771-435f-8d53-70c5a4027bf5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Network\Topology">
+      <UniqueIdentifier>{fc1a0bae-9d6a-47fd-a3dd-db3624c73589}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Network\Topology\Brite">
+      <UniqueIdentifier>{7591bbf5-8e72-49be-b0e7-dd9514c1cde2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Network\Multicast">
+      <UniqueIdentifier>{6ca2d43c-cc06-470c-a3d3-171b29b8e6cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Network\Multicast\Brite">
+      <UniqueIdentifier>{89f00183-7cb7-4814-b0e9-83f2881ccdfd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Network\Objects">
+      <UniqueIdentifier>{5ad11a48-eb4d-475a-a177-c328f8db54fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Network\Objects\Link">
+      <UniqueIdentifier>{d9de76a9-b5d8-40ce-b437-7a3c4bd2fae1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Network\Objects\Nodes">
+      <UniqueIdentifier>{abec4d89-177c-46d8-8c12-108ed3429924}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Network\Objects\Nodes\Hosts">
+      <UniqueIdentifier>{77d3f997-ddf5-4526-bf06-4f8cd0c709e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Network\Objects\Nodes\Router">
+      <UniqueIdentifier>{993ad4de-a700-47b6-9085-8bcc7e4fe61f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Network\Packets">
+      <UniqueIdentifier>{cd8bb05b-825c-4fbd-905c-4b35f1bc7858}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Network\Packets\Trfc">
+      <UniqueIdentifier>{e625951d-214e-47c4-a633-b309211dddec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Network\Route">
+      <UniqueIdentifier>{a3004cbd-ae43-4200-91d6-2c0ff9003021}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Network\Layers">
+      <UniqueIdentifier>{0e7da072-412d-4291-b3bb-c2c164e0d59e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Network\Layers\Trfc">
+      <UniqueIdentifier>{46c7bff0-9e79-48a5-a9e0-99878439d2b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Network\Address">
+      <UniqueIdentifier>{50a0e9a5-1bf7-4b1c-a376-895f9a5dfbfb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Headers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Exception.h">
+      <Filter>Header Files\Exception</Filter>
+    </ClInclude>
+    <ClInclude Include="ExceptionArgument.h">
+      <Filter>Header Files\Exception</Filter>
+    </ClInclude>
+    <ClInclude Include="ExceptionUnsupported.h">
+      <Filter>Header Files\Exception</Filter>
+    </ClInclude>
+    <ClInclude Include="Sim.h">
+      <Filter>Header Files\Simulator</Filter>
+    </ClInclude>
+    <ClInclude Include="SimEvent.h">
+      <Filter>Header Files\Simulator</Filter>
+    </ClInclude>
+    <ClInclude Include="SimEventList.h">
+      <Filter>Header Files\Simulator</Filter>
+    </ClInclude>
+    <ClInclude Include="SimHandler.h">
+      <Filter>Header Files\Simulator</Filter>
+    </ClInclude>
+    <ClInclude Include="SimModel.h">
+      <Filter>Header Files\Simulator</Filter>
+    </ClInclude>
+    <ClInclude Include="Hypergeometric.h">
+      <Filter>Header Files\Numeric\Special</Filter>
+    </ClInclude>
+    <ClInclude Include="Shuffle.h">
+      <Filter>Header Files\Numeric\Random</Filter>
+    </ClInclude>
+    <ClInclude Include="Delegate.h">
+      <Filter>Header Files\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="Event.h">
+      <Filter>Header Files\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="Rand.h">
+      <Filter>Header Files\Numeric\Random</Filter>
+    </ClInclude>
+    <ClInclude Include="ExceptionWorker.h">
+      <Filter>Header Files\Exception</Filter>
+    </ClInclude>
+    <ClInclude Include="ExceptionMutex.h">
+      <Filter>Header Files\Exception</Filter>
+    </ClInclude>
+    <ClInclude Include="ExceptionSignal.h">
+      <Filter>Header Files\Exception</Filter>
+    </ClInclude>
+    <ClInclude Include="ExceptionThread.h">
+      <Filter>Header Files\Exception</Filter>
+    </ClInclude>
+    <ClInclude Include="DistributionContinuous.h">
+      <Filter>Header Files\Numeric\Random\Distribution\Continuous</Filter>
+    </ClInclude>
+    <ClInclude Include="DistributionDiscrete.h">
+      <Filter>Header Files\Numeric\Random\Distribution\Discrete</Filter>
+    </ClInclude>
+    <ClInclude Include="DistributionZipf.h">
+      <Filter>Header Files\Numeric\Random\Distribution\Discrete</Filter>
+    </ClInclude>
+    <ClInclude Include="ExceptionConfig.h">
+      <Filter>Header Files\Exception</Filter>
+    </ClInclude>
+    <ClInclude Include="Dft.h">
+      <Filter>Header Files\Numeric\Special</Filter>
+    </ClInclude>
+    <ClInclude Include="DistributionHyperExponential.h">
+      <Filter>Header Files\Numeric\Random\Distribution\Continuous</Filter>
+    </ClInclude>
+    <ClInclude Include="ExceptionIptv.h">
+      <Filter>Header Files\Exception\Research</Filter>
+    </ClInclude>
+    <ClInclude Include="ExceptionIptvWorkload.h">
+      <Filter>Header Files\Exception\Research</Filter>
+    </ClInclude>
+    <ClInclude Include="PtrVector.h">
+      <Filter>Header Files\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="Ptr.h">
+      <Filter>Header Files\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="ExceptionPtr.h">
+      <Filter>Header Files\Exception</Filter>
+    </ClInclude>
+    <ClInclude Include="Config.h">
+      <Filter>Header Files\IO\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="ConfigParam.h">
+      <Filter>Header Files\IO\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="ErlangB.h">
+      <Filter>Header Files\Numeric\Queuing</Filter>
+    </ClInclude>
+    <ClInclude Include="ErlangBSolve.h">
+      <Filter>Header Files\Numeric\Queuing</Filter>
+    </ClInclude>
+    <ClInclude Include="ExceptionIo.h">
+      <Filter>Header Files\Exception</Filter>
+    </ClInclude>
+    <ClInclude Include="Mean.h">
+      <Filter>Header Files\Numeric\Statistic</Filter>
+    </ClInclude>
+    <ClInclude Include="Variance.h">
+      <Filter>Header Files\Numeric\Statistic</Filter>
+    </ClInclude>
+    <ClInclude Include="Sum.h">
+      <Filter>Header Files\Numeric\Statistic</Filter>
+    </ClInclude>
+    <ClInclude Include="Median.h">
+      <Filter>Header Files\Numeric\Statistic</Filter>
+    </ClInclude>
+    <ClInclude Include="Roots.h">
+      <Filter>Header Files\Numeric\Equation</Filter>
+    </ClInclude>
+    <ClInclude Include="Moment.h">
+      <Filter>Header Files\Numeric\Statistic</Filter>
+    </ClInclude>
+    <ClInclude Include="FitNormal.h">
+      <Filter>Header Files\Numeric\Statistic\Fitting</Filter>
+    </ClInclude>
+    <ClInclude Include="FitEmpirical.h">
+      <Filter>Header Files\Numeric\Statistic\Fitting</Filter>
+    </ClInclude>
+    <ClInclude Include="Filter.h">
+      <Filter>Header Files\Numeric\Signal processing\Filter</Filter>
+    </ClInclude>
+    <ClInclude Include="FilterWindow.h">
+      <Filter>Header Files\Numeric\Signal processing\Filter</Filter>
+    </ClInclude>
+    <ClInclude Include="FilterLinear.h">
+      <Filter>Header Files\Numeric\Signal processing\Filter</Filter>
+    </ClInclude>
+    <ClInclude Include="FilterSmooth.h">
+      <Filter>Header Files\Numeric\Signal processing\Filter</Filter>
+    </ClInclude>
+    <ClInclude Include="SysSignal.h">
+      <Filter>Header Files\System</Filter>
+    </ClInclude>
+    <ClInclude Include="SysMutex.h">
+      <Filter>Header Files\System</Filter>
+    </ClInclude>
+    <ClInclude Include="SysWorker.h">
+      <Filter>Header Files\System\Worker</Filter>
+    </ClInclude>
+    <ClInclude Include="SysWorkers.h">
+      <Filter>Header Files\System\Worker</Filter>
+    </ClInclude>
+    <ClInclude Include="SysWorkItem.h">
+      <Filter>Header Files\System\Worker</Filter>
+    </ClInclude>
+    <ClInclude Include="Signal.h">
+      <Filter>Header Files\Numeric\Signal processing\Signal</Filter>
+    </ClInclude>
+    <ClInclude Include="SignalSin.h">
+      <Filter>Header Files\Numeric\Signal processing\Signal</Filter>
+    </ClInclude>
+    <ClInclude Include="SignalTriangular.h">
+      <Filter>Header Files\Numeric\Signal processing\Signal</Filter>
+    </ClInclude>
+    <ClInclude Include="RegressionLeastSquares.h">
+      <Filter>Header Files\Numeric\Special</Filter>
+    </ClInclude>
+    <ClInclude Include="SignalRectangular.h">
+      <Filter>Header Files\Numeric\Signal processing\Signal</Filter>
+    </ClInclude>
+    <ClInclude Include="ExceptionMemory.h">
+      <Filter>Header Files\Exception</Filter>
+    </ClInclude>
+    <ClInclude Include="Address.h">
+      <Filter>Header Files\Network\Address</Filter>
+    </ClInclude>
+    <ClInclude Include="Topo.h">
+      <Filter>Header Files\Network\Topology</Filter>
+    </ClInclude>
+    <ClInclude Include="TopoEdge.h">
+      <Filter>Header Files\Network\Topology</Filter>
+    </ClInclude>
+    <ClInclude Include="TopoNode.h">
+      <Filter>Header Files\Network\Topology</Filter>
+    </ClInclude>
+    <ClInclude Include="TopoRoute.h">
+      <Filter>Header Files\Network\Topology</Filter>
+    </ClInclude>
+    <ClInclude Include="TopoBrite.h">
+      <Filter>Header Files\Network\Topology\Brite</Filter>
+    </ClInclude>
+    <ClInclude Include="TopoBriteEdge.h">
+      <Filter>Header Files\Network\Topology\Brite</Filter>
+    </ClInclude>
+    <ClInclude Include="TopoBriteNode.h">
+      <Filter>Header Files\Network\Topology\Brite</Filter>
+    </ClInclude>
+    <ClInclude Include="TopoBriteRoute.h">
+      <Filter>Header Files\Network\Topology\Brite</Filter>
+    </ClInclude>
+    <ClInclude Include="Profiler.h">
+      <Filter>Header Files\System\Profiler</Filter>
+    </ClInclude>
+    <ClInclude Include="Quartile.h">
+      <Filter>Header Files\Numeric\Statistic</Filter>
+    </ClInclude>
+    <ClInclude Include="Multicast.h">
+      <Filter>Header Files\Network\Multicast</Filter>
+    </ClInclude>
+    <ClInclude Include="MulticastBrite.h">
+      <Filter>Header Files\Network\Multicast\Brite</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Header Files\Network\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Layer.h">
+      <Filter>Header Files\Network\Layers</Filter>
+    </ClInclude>
+    <ClInclude Include="LayerIgmp.h">
+      <Filter>Header Files\Network\Layers</Filter>
+    </ClInclude>
+    <ClInclude Include="LayerIp.h">
+      <Filter>Header Files\Network\Layers</Filter>
+    </ClInclude>
+    <ClInclude Include="LayerIpLocal.h">
+      <Filter>Header Files\Network\Layers</Filter>
+    </ClInclude>
+    <ClInclude Include="LayerIpMcast.h">
+      <Filter>Header Files\Network\Layers</Filter>
+    </ClInclude>
+    <ClInclude Include="LayerIpMcastGroup.h">
+      <Filter>Header Files\Network\Layers</Filter>
+    </ClInclude>
+    <ClInclude Include="LayerIpMcastMembership.h">
+      <Filter>Header Files\Network\Layers</Filter>
+    </ClInclude>
+    <ClInclude Include="LayerIpRoute.h">
+      <Filter>Header Files\Network\Layers</Filter>
+    </ClInclude>
+    <ClInclude Include="LayerPimSm.h">
+      <Filter>Header Files\Network\Layers</Filter>
+    </ClInclude>
+    <ClInclude Include="LayerPimSmMembership.h">
+      <Filter>Header Files\Network\Layers</Filter>
+    </ClInclude>
+    <ClInclude Include="LayerUdp.h">
+      <Filter>Header Files\Network\Layers</Filter>
+    </ClInclude>
+    <ClInclude Include="Packet.h">
+      <Filter>Header Files\Network\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="Route.h">
+      <Filter>Header Files\Network\Route</Filter>
+    </ClInclude>
+    <ClInclude Include="PacketIgmp.h">
+      <Filter>Header Files\Network\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="AddressIpv4.h">
+      <Filter>Header Files\Network\Address</Filter>
+    </ClInclude>
+    <ClInclude Include="PacketIpv4.h">
+      <Filter>Header Files\Network\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="PacketPimSm.h">
+      <Filter>Header Files\Network\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="PacketPimSmJoinPrune.h">
+      <Filter>Header Files\Network\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="PacketUdp.h">
+      <Filter>Header Files\Network\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="EventLinkDelay.h">
+      <Filter>Header Files\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="EventLinkQueue.h">
+      <Filter>Header Files\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Link.h">
+      <Filter>Header Files\Network\Objects\Links</Filter>
+    </ClInclude>
+    <ClInclude Include="LinkQueue.h">
+      <Filter>Header Files\Network\Objects\Links</Filter>
+    </ClInclude>
+    <ClInclude Include="NodeIpv4.h">
+      <Filter>Header Files\Network\Objects\Nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="Node.h">
+      <Filter>Header Files\Network\Objects\Nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="HostIpv4.h">
+      <Filter>Header Files\Network\Objects\Nodes\Hosts</Filter>
+    </ClInclude>
+    <ClInclude Include="RouteHost.h">
+      <Filter>Header Files\Network\Route</Filter>
+    </ClInclude>
+    <ClInclude Include="RouterIpv4.h">
+      <Filter>Header Files\Network\Objects\Nodes\Router</Filter>
+    </ClInclude>
+    <ClInclude Include="IoStream.h">
+      <Filter>Header Files\IO\Stream</Filter>
+    </ClInclude>
+    <ClInclude Include="IoStreamOut.h">
+      <Filter>Header Files\IO\Stream</Filter>
+    </ClInclude>
+    <ClInclude Include="IoStreamOutConsole.h">
+      <Filter>Header Files\IO\Stream</Filter>
+    </ClInclude>
+    <ClInclude Include="SimTimer.h">
+      <Filter>Header Files\Simulator</Filter>
+    </ClInclude>
+    <ClInclude Include="SimTimerBase.h">
+      <Filter>Header Files\Simulator</Filter>
+    </ClInclude>
+    <ClInclude Include="SimTimerInfo.h">
+      <Filter>Header Files\Simulator</Filter>
+    </ClInclude>
+    <ClInclude Include="EventTimer.h">
+      <Filter>Header Files\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="LayerTrfcTag.h">
+      <Filter>Header Files\Network\Layers\Tfrc</Filter>
+    </ClInclude>
+    <ClInclude Include="PacketTrfc.h">
+      <Filter>Header Files\Network\Packets\Trfc</Filter>
+    </ClInclude>
+    <ClInclude Include="PacketTrfcData.h">
+      <Filter>Header Files\Network\Packets\Trfc</Filter>
+    </ClInclude>
+    <ClInclude Include="PacketTrfcFeedback.h">
+      <Filter>Header Files\Network\Packets\Trfc</Filter>
+    </ClInclude>
+    <ClInclude Include="PacketTrfcMessage.h">
+      <Filter>Header Files\Network\Packets\Trfc</Filter>
+    </ClInclude>
+    <ClInclude Include="LayerTrfcReceiver.h">
+      <Filter>Header Files\Network\Layers\Tfrc</Filter>
+    </ClInclude>
+    <ClInclude Include="LayerTrfcSender.h">
+      <Filter>Header Files\Network\Layers\Tfrc</Filter>
+    </ClInclude>
+    <ClInclude Include="LayerTrfc.h">
+      <Filter>Header Files\Network\Layers\Tfrc</Filter>
+    </ClInclude>
+    <ClInclude Include="LayerTrfcConnection.h">
+      <Filter>Header Files\Network\Layers\Tfrc</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Headers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ExceptionArgument.cpp">
+      <Filter>Source Files\Exception</Filter>
+    </ClCompile>
+    <ClCompile Include="ExceptionUnsupported.cpp">
+      <Filter>Source Files\Exception</Filter>
+    </ClCompile>
+    <ClCompile Include="Sim.cpp">
+      <Filter>Source Files\Simulator</Filter>
+    </ClCompile>
+    <ClCompile Include="SimEvent.cpp">
+      <Filter>Source Files\Simulator</Filter>
+    </ClCompile>
+    <ClCompile Include="SimEventList.cpp">
+      <Filter>Source Files\Simulator</Filter>
+    </ClCompile>
+    <ClCompile Include="SimHandler.cpp">
+      <Filter>Source Files\Simulator</Filter>
+    </ClCompile>
+    <ClCompile Include="SimModel.cpp">
+      <Filter>Source Files\Simulator</Filter>
+    </ClCompile>
+    <ClCompile Include="Exception.cpp">
+      <Filter>Source Files\Exception</Filter>
+    </ClCompile>
+    <ClCompile Include="Shuffle.cpp">
+      <Filter>Source Files\Numeric\Random</Filter>
+    </ClCompile>
+    <ClCompile Include="Hypergeometric.cpp">
+      <Filter>Source Files\Numeric\Special</Filter>
+    </ClCompile>
+    <ClCompile Include="Event.cpp">
+      <Filter>Source Files\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Delegate.cpp">
+      <Filter>Source Files\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Rand.cpp">
+      <Filter>Source Files\Numeric\Random</Filter>
+    </ClCompile>
+    <ClCompile Include="ExceptionMutex.cpp">
+      <Filter>Source Files\Exception</Filter>
+    </ClCompile>
+    <ClCompile Include="ExceptionSignal.cpp">
+      <Filter>Source Files\Exception</Filter>
+    </ClCompile>
+    <ClCompile Include="ExceptionThread.cpp">
+      <Filter>Source Files\Exception</Filter>
+    </ClCompile>
+    <ClCompile Include="ExceptionWorker.cpp">
+      <Filter>Source Files\Exception</Filter>
+    </ClCompile>
+    <ClCompile Include="DistributionContinuous.cpp">
+      <Filter>Source Files\Numeric\Random\Distribution\Continuous</Filter>
+    </ClCompile>
+    <ClCompile Include="DistributionDiscrete.cpp">
+      <Filter>Source Files\Numeric\Random\Distribution\Discrete</Filter>
+    </ClCompile>
+    <ClCompile Include="DistributionZipf.cpp">
+      <Filter>Source Files\Numeric\Random\Distribution\Discrete</Filter>
+    </ClCompile>
+    <ClCompile Include="ExceptionConfig.cpp">
+      <Filter>Source Files\Exception</Filter>
+    </ClCompile>
+    <ClCompile Include="Dft.cpp">
+      <Filter>Source Files\Numeric\Special</Filter>
+    </ClCompile>
+    <ClCompile Include="DistributionHyperExponential.cpp">
+      <Filter>Source Files\Numeric\Random\Distribution\Continuous</Filter>
+    </ClCompile>
+    <ClCompile Include="ExceptionIptv.cpp">
+      <Filter>Source Files\Exception\Research</Filter>
+    </ClCompile>
+    <ClCompile Include="ExceptionIptvWorkload.cpp">
+      <Filter>Source Files\Exception\Research</Filter>
+    </ClCompile>
+    <ClCompile Include="PtrVector.cpp">
+      <Filter>Source Files\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="Ptr.cpp">
+      <Filter>Source Files\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="ExceptionPtr.cpp">
+      <Filter>Source Files\Exception</Filter>
+    </ClCompile>
+    <ClCompile Include="Config.cpp">
+      <Filter>Source Files\IO\Config</Filter>
+    </ClCompile>
+    <ClCompile Include="ConfigParam.cpp">
+      <Filter>Source Files\IO\Config</Filter>
+    </ClCompile>
+    <ClCompile Include="ErlangB.cpp">
+      <Filter>Source Files\Numeric\Queuing</Filter>
+    </ClCompile>
+    <ClCompile Include="ErlangBSolve.cpp">
+      <Filter>Source Files\Numeric\Queuing</Filter>
+    </ClCompile>
+    <ClCompile Include="ExceptionIo.cpp">
+      <Filter>Source Files\Exception</Filter>
+    </ClCompile>
+    <ClCompile Include="Mean.cpp">
+      <Filter>Source Files\Numeric\Statistic</Filter>
+    </ClCompile>
+    <ClCompile Include="Variance.cpp">
+      <Filter>Source Files\Numeric\Statistic</Filter>
+    </ClCompile>
+    <ClCompile Include="Sum.cpp">
+      <Filter>Source Files\Numeric\Statistic</Filter>
+    </ClCompile>
+    <ClCompile Include="Median.cpp">
+      <Filter>Source Files\Numeric\Statistic</Filter>
+    </ClCompile>
+    <ClCompile Include="Roots.cpp">
+      <Filter>Source Files\Numeric\Equation</Filter>
+    </ClCompile>
+    <ClCompile Include="Moment.cpp">
+      <Filter>Source Files\Numeric\Statistic</Filter>
+    </ClCompile>
+    <ClCompile Include="FitNormal.cpp">
+      <Filter>Source Files\Numeric\Statistic\Fitting</Filter>
+    </ClCompile>
+    <ClCompile Include="FitEmpirical.cpp">
+      <Filter>Source Files\Numeric\Statistic\Fitting</Filter>
+    </ClCompile>
+    <ClCompile Include="Filter.cpp">
+      <Filter>Source Files\Numeric\Signal processing\Filter</Filter>
+    </ClCompile>
+    <ClCompile Include="FilterWindow.cpp">
+      <Filter>Source Files\Numeric\Signal processing\Filter</Filter>
+    </ClCompile>
+    <ClCompile Include="FilterLinear.cpp">
+      <Filter>Source Files\Numeric\Signal processing\Filter</Filter>
+    </ClCompile>
+    <ClCompile Include="FilterSmooth.cpp">
+      <Filter>Source Files\Numeric\Signal processing\Filter</Filter>
+    </ClCompile>
+    <ClCompile Include="SysSignal.cpp">
+      <Filter>Source Files\System</Filter>
+    </ClCompile>
+    <ClCompile Include="SysMutex.cpp">
+      <Filter>Source Files\System</Filter>
+    </ClCompile>
+    <ClCompile Include="SysWorker.cpp">
+      <Filter>Source Files\System\Worker</Filter>
+    </ClCompile>
+    <ClCompile Include="SysWorkers.cpp">
+      <Filter>Source Files\System\Worker</Filter>
+    </ClCompile>
+    <ClCompile Include="SysWorkItem.cpp">
+      <Filter>Source Files\System\Worker</Filter>
+    </ClCompile>
+    <ClCompile Include="Signal.cpp">
+      <Filter>Source Files\Numeric\Signal processing\Signal</Filter>
+    </ClCompile>
+    <ClCompile Include="SignalSin.cpp">
+      <Filter>Source Files\Numeric\Signal processing\Signal</Filter>
+    </ClCompile>
+    <ClCompile Include="SignalTriangular.cpp">
+      <Filter>Source Files\Numeric\Signal processing\Signal</Filter>
+    </ClCompile>
+    <ClCompile Include="RegressionLeastSquares.cpp">
+      <Filter>Source Files\Numeric\Special</Filter>
+    </ClCompile>
+    <ClCompile Include="SignalRectangular.cpp">
+      <Filter>Source Files\Numeric\Signal processing\Signal</Filter>
+    </ClCompile>
+    <ClCompile Include="ExceptionMemory.cpp">
+      <Filter>Source Files\Exception</Filter>
+    </ClCompile>
+    <ClCompile Include="Address.cpp">
+      <Filter>Source Files\Network\Address</Filter>
+    </ClCompile>
+    <ClCompile Include="Topo.cpp">
+      <Filter>Source Files\Network\Topology</Filter>
+    </ClCompile>
+    <ClCompile Include="TopoEdge.cpp">
+      <Filter>Source Files\Network\Topology</Filter>
+    </ClCompile>
+    <ClCompile Include="TopoNode.cpp">
+      <Filter>Source Files\Network\Topology</Filter>
+    </ClCompile>
+    <ClCompile Include="TopoRoute.cpp">
+      <Filter>Source Files\Network\Topology</Filter>
+    </ClCompile>
+    <ClCompile Include="TopoBrite.cpp">
+      <Filter>Source Files\Network\Topology\Brite</Filter>
+    </ClCompile>
+    <ClCompile Include="TopoBriteEdge.cpp">
+      <Filter>Source Files\Network\Topology\Brite</Filter>
+    </ClCompile>
+    <ClCompile Include="TopoBriteNode.cpp">
+      <Filter>Source Files\Network\Topology\Brite</Filter>
+    </ClCompile>
+    <ClCompile Include="TopoBriteRoute.cpp">
+      <Filter>Source Files\Network\Topology\Brite</Filter>
+    </ClCompile>
+    <ClCompile Include="Profiler.cpp">
+      <Filter>Source Files\System\Profiler</Filter>
+    </ClCompile>
+    <ClCompile Include="Quartile.cpp">
+      <Filter>Source Files\Numeric\Statistic</Filter>
+    </ClCompile>
+    <ClCompile Include="Multicast.cpp">
+      <Filter>Source Files\Network\Multicast</Filter>
+    </ClCompile>
+    <ClCompile Include="MulticastBrite.cpp">
+      <Filter>Source Files\Network\Multicast\Brite</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Source Files\Network\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Packet.cpp">
+      <Filter>Source Files\Network\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="Route.cpp">
+      <Filter>Source Files\Network\Route</Filter>
+    </ClCompile>
+    <ClCompile Include="Layer.cpp">
+      <Filter>Source Files\Network\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="LayerIgmp.cpp">
+      <Filter>Source Files\Network\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="LayerIp.cpp">
+      <Filter>Source Files\Network\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="LayerIpLocal.cpp">
+      <Filter>Source Files\Network\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="LayerIpMcast.cpp">
+      <Filter>Source Files\Network\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="LayerIpMcastGroup.cpp">
+      <Filter>Source Files\Network\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="LayerIpMcastMembership.cpp">
+      <Filter>Source Files\Network\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="LayerIpRoute.cpp">
+      <Filter>Source Files\Network\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="LayerPimSm.cpp">
+      <Filter>Source Files\Network\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="LayerPimSmMembership.cpp">
+      <Filter>Source Files\Network\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="LayerUdp.cpp">
+      <Filter>Source Files\Network\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="PacketIgmp.cpp">
+      <Filter>Source Files\Network\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="AddressIpv4.cpp">
+      <Filter>Source Files\Network\Address</Filter>
+    </ClCompile>
+    <ClCompile Include="PacketIpv4.cpp">
+      <Filter>Source Files\Network\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="PacketPimSm.cpp">
+      <Filter>Source Files\Network\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="PacketPimSmJoinPrune.cpp">
+      <Filter>Source Files\Network\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="PacketUdp.cpp">
+      <Filter>Source Files\Network\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="EventLinkDelay.cpp">
+      <Filter>Source Files\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="EventLinkQueue.cpp">
+      <Filter>Source Files\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="Link.cpp">
+      <Filter>Source Files\Network\Objects\Link</Filter>
+    </ClCompile>
+    <ClCompile Include="LinkQueue.cpp">
+      <Filter>Source Files\Network\Objects\Link</Filter>
+    </ClCompile>
+    <ClCompile Include="NodeIpv4.cpp">
+      <Filter>Source Files\Network\Objects\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="Node.cpp">
+      <Filter>Source Files\Network\Objects\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="HostIpv4.cpp">
+      <Filter>Source Files\Network\Objects\Nodes\Hosts</Filter>
+    </ClCompile>
+    <ClCompile Include="RouteHost.cpp">
+      <Filter>Source Files\Network\Route</Filter>
+    </ClCompile>
+    <ClCompile Include="RouterIpv4.cpp">
+      <Filter>Source Files\Network\Objects\Nodes\Router</Filter>
+    </ClCompile>
+    <ClCompile Include="IoStream.cpp">
+      <Filter>Source Files\IO\Stream</Filter>
+    </ClCompile>
+    <ClCompile Include="IoStreamOut.cpp">
+      <Filter>Source Files\IO\Stream</Filter>
+    </ClCompile>
+    <ClCompile Include="IoStreamOutConsole.cpp">
+      <Filter>Source Files\IO\Stream</Filter>
+    </ClCompile>
+    <ClCompile Include="SimTimer.cpp">
+      <Filter>Source Files\Simulator</Filter>
+    </ClCompile>
+    <ClCompile Include="SimTimerBase.cpp">
+      <Filter>Source Files\Simulator</Filter>
+    </ClCompile>
+    <ClCompile Include="SimTimerInfo.cpp">
+      <Filter>Source Files\Simulator</Filter>
+    </ClCompile>
+    <ClCompile Include="EventTimer.cpp">
+      <Filter>Source Files\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="LayerTrfcTag.cpp">
+      <Filter>Source Files\Network\Layers\Trfc</Filter>
+    </ClCompile>
+    <ClCompile Include="PacketTrfc.cpp">
+      <Filter>Source Files\Network\Packets\Trfc</Filter>
+    </ClCompile>
+    <ClCompile Include="PacketTrfcData.cpp">
+      <Filter>Source Files\Network\Packets\Trfc</Filter>
+    </ClCompile>
+    <ClCompile Include="PacketTrfcFeedback.cpp">
+      <Filter>Source Files\Network\Packets\Trfc</Filter>
+    </ClCompile>
+    <ClCompile Include="PacketTrfcMessage.cpp">
+      <Filter>Source Files\Network\Packets\Trfc</Filter>
+    </ClCompile>
+    <ClCompile Include="LayerTrfcReceiver.cpp">
+      <Filter>Source Files\Network\Layers\Trfc</Filter>
+    </ClCompile>
+    <ClCompile Include="LayerTrfcSender.cpp">
+      <Filter>Source Files\Network\Layers\Trfc</Filter>
+    </ClCompile>
+    <ClCompile Include="LayerTrfc.cpp">
+      <Filter>Source Files\Network\Layers\Trfc</Filter>
+    </ClCompile>
+    <ClCompile Include="LayerTrfcConnection.cpp">
+      <Filter>Source Files\Network\Layers\Trfc</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

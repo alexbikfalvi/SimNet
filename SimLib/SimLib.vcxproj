@@ -1,0 +1,321 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{F1FB3628-CCDB-4837-B9B9-E880683B7BAB}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>SimLibrary</RootNamespace>
+    <ProjectName>SimLib</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderFile>Headers.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>
+      </AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderFile>Headers.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>
+      </AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="Address.h" />
+    <ClInclude Include="AddressIpv4.h" />
+    <ClInclude Include="LayerTrfcConnection.h" />
+    <ClInclude Include="LayerTrfc.h" />
+    <ClInclude Include="LayerTrfcReceiver.h" />
+    <ClInclude Include="LayerTrfcSender.h" />
+    <ClInclude Include="LayerTrfcTag.h" />
+    <ClInclude Include="EventTimer.h" />
+    <ClInclude Include="PacketTrfc.h" />
+    <ClInclude Include="PacketTrfcData.h" />
+    <ClInclude Include="PacketTrfcFeedback.h" />
+    <ClInclude Include="PacketTrfcMessage.h" />
+    <ClInclude Include="SimTimer.h" />
+    <ClInclude Include="SimTimerBase.h" />
+    <ClInclude Include="SimTimerInfo.h" />
+    <ClInclude Include="ConfigParam.h" />
+    <ClInclude Include="Delegate.h" />
+    <ClInclude Include="Dft.h" />
+    <ClInclude Include="DistributionDiscrete.h" />
+    <ClInclude Include="DistributionContinuous.h" />
+    <ClInclude Include="DistributionHyperExponential.h" />
+    <ClInclude Include="DistributionZipf.h" />
+    <ClInclude Include="EventLinkDelay.h" />
+    <ClInclude Include="EventLinkQueue.h" />
+    <ClInclude Include="ExceptionMemory.h" />
+    <ClInclude Include="FitEmpirical.h" />
+    <ClInclude Include="ErlangB.h" />
+    <ClInclude Include="ErlangBSolve.h" />
+    <ClInclude Include="Event.h" />
+    <ClInclude Include="Exception.h" />
+    <ClInclude Include="ExceptionArgument.h" />
+    <ClInclude Include="ExceptionConfig.h" />
+    <ClInclude Include="ExceptionIo.h" />
+    <ClInclude Include="ExceptionIptv.h" />
+    <ClInclude Include="ExceptionIptvWorkload.h" />
+    <ClInclude Include="ExceptionMutex.h" />
+    <ClInclude Include="ExceptionPtr.h" />
+    <ClInclude Include="ExceptionSignal.h" />
+    <ClInclude Include="ExceptionThread.h" />
+    <ClInclude Include="ExceptionUnsupported.h" />
+    <ClInclude Include="ExceptionWorker.h" />
+    <ClInclude Include="Config.h" />
+    <ClInclude Include="Filter.h" />
+    <ClInclude Include="FilterLinear.h" />
+    <ClInclude Include="FilterSmooth.h" />
+    <ClInclude Include="FilterWindow.h" />
+    <ClInclude Include="FitNormal.h" />
+    <ClInclude Include="Headers.h" />
+    <ClInclude Include="HostIpv4.h" />
+    <ClInclude Include="Hypergeometric.h" />
+    <ClInclude Include="Include.h" />
+    <ClInclude Include="Layer.h" />
+    <ClInclude Include="LayerIgmp.h" />
+    <ClInclude Include="LayerIp.h" />
+    <ClInclude Include="LayerIpLocal.h" />
+    <ClInclude Include="LayerIpMcast.h" />
+    <ClInclude Include="LayerIpMcastGroup.h" />
+    <ClInclude Include="LayerIpMcastMembership.h" />
+    <ClInclude Include="LayerIpRoute.h" />
+    <ClInclude Include="LayerPimSm.h" />
+    <ClInclude Include="LayerPimSmMembership.h" />
+    <ClInclude Include="LayerUdp.h" />
+    <ClInclude Include="Link.h" />
+    <ClInclude Include="LinkQueue.h" />
+    <ClInclude Include="Mean.h" />
+    <ClInclude Include="Median.h" />
+    <ClInclude Include="Moment.h" />
+    <ClInclude Include="Multicast.h" />
+    <ClInclude Include="MulticastBrite.h" />
+    <ClInclude Include="Node.h" />
+    <ClInclude Include="NodeIpv4.h" />
+    <ClInclude Include="Object.h" />
+    <ClInclude Include="Packet.h" />
+    <ClInclude Include="PacketIgmp.h" />
+    <ClInclude Include="PacketIpv4.h" />
+    <ClInclude Include="PacketPimSm.h" />
+    <ClInclude Include="PacketPimSmJoinPrune.h" />
+    <ClInclude Include="PacketUdp.h" />
+    <ClInclude Include="Profiler.h" />
+    <ClInclude Include="Ptr.h" />
+    <ClInclude Include="PtrVector.h" />
+    <ClInclude Include="Quartile.h" />
+    <ClInclude Include="Rand.h" />
+    <ClInclude Include="RegressionLeastSquares.h" />
+    <ClInclude Include="Roots.h" />
+    <ClInclude Include="Route.h" />
+    <ClInclude Include="RouteHost.h" />
+    <ClInclude Include="RouterIpv4.h" />
+    <ClInclude Include="Shuffle.h" />
+    <ClInclude Include="Signal.h" />
+    <ClInclude Include="SignalRectangular.h" />
+    <ClInclude Include="SignalSin.h" />
+    <ClInclude Include="SignalTriangular.h" />
+    <ClInclude Include="Sim.h" />
+    <ClInclude Include="SimEvent.h" />
+    <ClInclude Include="SimEventList.h" />
+    <ClInclude Include="SimHandler.h" />
+    <ClInclude Include="SimModel.h" />
+    <ClInclude Include="SysMutex.h" />
+    <ClInclude Include="SysSignal.h" />
+    <ClInclude Include="IoStream.h" />
+    <ClInclude Include="IoStreamOut.h" />
+    <ClInclude Include="IoStreamOutConsole.h" />
+    <ClInclude Include="Sum.h" />
+    <ClInclude Include="Topo.h" />
+    <ClInclude Include="TopoBrite.h" />
+    <ClInclude Include="TopoBriteEdge.h" />
+    <ClInclude Include="TopoBriteNode.h" />
+    <ClInclude Include="TopoBriteRoute.h" />
+    <ClInclude Include="TopoEdge.h" />
+    <ClInclude Include="TopoNode.h" />
+    <ClInclude Include="TopoRoute.h" />
+    <ClInclude Include="Variance.h" />
+    <ClInclude Include="SysWorker.h" />
+    <ClInclude Include="SysWorkers.h" />
+    <ClInclude Include="SysWorkItem.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Address.cpp" />
+    <ClCompile Include="AddressIpv4.cpp" />
+    <ClCompile Include="LayerTrfcConnection.cpp" />
+    <ClCompile Include="LayerTrfc.cpp" />
+    <ClCompile Include="LayerTrfcReceiver.cpp" />
+    <ClCompile Include="LayerTrfcSender.cpp" />
+    <ClCompile Include="LayerTrfcTag.cpp" />
+    <ClCompile Include="EventTimer.cpp" />
+    <ClCompile Include="PacketTrfc.cpp" />
+    <ClCompile Include="PacketTrfcData.cpp" />
+    <ClCompile Include="PacketTrfcFeedback.cpp" />
+    <ClCompile Include="PacketTrfcMessage.cpp" />
+    <ClCompile Include="SimTimer.cpp" />
+    <ClCompile Include="SimTimerBase.cpp" />
+    <ClCompile Include="SimTimerInfo.cpp" />
+    <ClCompile Include="ConfigParam.cpp" />
+    <ClCompile Include="Delegate.cpp" />
+    <ClCompile Include="Dft.cpp" />
+    <ClCompile Include="DistributionDiscrete.cpp" />
+    <ClCompile Include="DistributionContinuous.cpp" />
+    <ClCompile Include="DistributionHyperExponential.cpp" />
+    <ClCompile Include="DistributionZipf.cpp" />
+    <ClCompile Include="EventLinkDelay.cpp" />
+    <ClCompile Include="EventLinkQueue.cpp" />
+    <ClCompile Include="ExceptionMemory.cpp" />
+    <ClCompile Include="FitEmpirical.cpp" />
+    <ClCompile Include="ErlangB.cpp" />
+    <ClCompile Include="ErlangBSolve.cpp" />
+    <ClCompile Include="Event.cpp" />
+    <ClCompile Include="Exception.cpp" />
+    <ClCompile Include="ExceptionArgument.cpp" />
+    <ClCompile Include="ExceptionConfig.cpp" />
+    <ClCompile Include="ExceptionIo.cpp" />
+    <ClCompile Include="ExceptionIptv.cpp" />
+    <ClCompile Include="ExceptionIptvWorkload.cpp" />
+    <ClCompile Include="ExceptionMutex.cpp" />
+    <ClCompile Include="ExceptionPtr.cpp" />
+    <ClCompile Include="ExceptionSignal.cpp" />
+    <ClCompile Include="ExceptionThread.cpp" />
+    <ClCompile Include="ExceptionUnsupported.cpp" />
+    <ClCompile Include="ExceptionWorker.cpp" />
+    <ClCompile Include="Config.cpp" />
+    <ClCompile Include="Filter.cpp" />
+    <ClCompile Include="FilterLinear.cpp" />
+    <ClCompile Include="FilterSmooth.cpp" />
+    <ClCompile Include="FilterWindow.cpp" />
+    <ClCompile Include="FitNormal.cpp" />
+    <ClCompile Include="Headers.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="HostIpv4.cpp" />
+    <ClCompile Include="Hypergeometric.cpp" />
+    <ClCompile Include="Layer.cpp" />
+    <ClCompile Include="LayerIgmp.cpp" />
+    <ClCompile Include="LayerIp.cpp" />
+    <ClCompile Include="LayerIpLocal.cpp" />
+    <ClCompile Include="LayerIpMcast.cpp" />
+    <ClCompile Include="LayerIpMcastGroup.cpp" />
+    <ClCompile Include="LayerIpMcastMembership.cpp" />
+    <ClCompile Include="LayerIpRoute.cpp" />
+    <ClCompile Include="LayerPimSm.cpp" />
+    <ClCompile Include="LayerPimSmMembership.cpp" />
+    <ClCompile Include="LayerUdp.cpp" />
+    <ClCompile Include="Link.cpp" />
+    <ClCompile Include="LinkQueue.cpp" />
+    <ClCompile Include="Mean.cpp" />
+    <ClCompile Include="Median.cpp" />
+    <ClCompile Include="Moment.cpp" />
+    <ClCompile Include="Multicast.cpp" />
+    <ClCompile Include="MulticastBrite.cpp" />
+    <ClCompile Include="Node.cpp" />
+    <ClCompile Include="NodeIpv4.cpp" />
+    <ClCompile Include="Object.cpp" />
+    <ClCompile Include="Packet.cpp" />
+    <ClCompile Include="PacketIgmp.cpp" />
+    <ClCompile Include="PacketIpv4.cpp" />
+    <ClCompile Include="PacketPimSm.cpp" />
+    <ClCompile Include="PacketPimSmJoinPrune.cpp" />
+    <ClCompile Include="PacketUdp.cpp" />
+    <ClCompile Include="Profiler.cpp" />
+    <ClCompile Include="Ptr.cpp" />
+    <ClCompile Include="PtrVector.cpp" />
+    <ClCompile Include="Quartile.cpp" />
+    <ClCompile Include="Rand.cpp" />
+    <ClCompile Include="RegressionLeastSquares.cpp" />
+    <ClCompile Include="Roots.cpp" />
+    <ClCompile Include="Route.cpp" />
+    <ClCompile Include="RouteHost.cpp" />
+    <ClCompile Include="RouterIpv4.cpp" />
+    <ClCompile Include="Shuffle.cpp" />
+    <ClCompile Include="Signal.cpp" />
+    <ClCompile Include="SignalRectangular.cpp" />
+    <ClCompile Include="SignalSin.cpp" />
+    <ClCompile Include="SignalTriangular.cpp" />
+    <ClCompile Include="Sim.cpp" />
+    <ClCompile Include="SimEvent.cpp" />
+    <ClCompile Include="SimEventList.cpp" />
+    <ClCompile Include="SimHandler.cpp" />
+    <ClCompile Include="SimModel.cpp" />
+    <ClCompile Include="SysMutex.cpp" />
+    <ClCompile Include="SysSignal.cpp" />
+    <ClCompile Include="IoStream.cpp" />
+    <ClCompile Include="IoStreamOut.cpp" />
+    <ClCompile Include="IoStreamOutConsole.cpp" />
+    <ClCompile Include="Sum.cpp" />
+    <ClCompile Include="Topo.cpp" />
+    <ClCompile Include="TopoBrite.cpp" />
+    <ClCompile Include="TopoBriteEdge.cpp" />
+    <ClCompile Include="TopoBriteNode.cpp" />
+    <ClCompile Include="TopoBriteRoute.cpp" />
+    <ClCompile Include="TopoEdge.cpp" />
+    <ClCompile Include="TopoNode.cpp" />
+    <ClCompile Include="TopoRoute.cpp" />
+    <ClCompile Include="Variance.cpp" />
+    <ClCompile Include="SysWorker.cpp" />
+    <ClCompile Include="SysWorkers.cpp" />
+    <ClCompile Include="SysWorkItem.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

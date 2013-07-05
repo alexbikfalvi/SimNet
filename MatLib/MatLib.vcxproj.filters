@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\IO">
+      <UniqueIdentifier>{fd942712-801b-4bbc-a0ca-c0a1747e31a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\IO">
+      <UniqueIdentifier>{a7ef6ff3-407a-44ed-9771-9c0c2d1d9580}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\IO\Stream">
+      <UniqueIdentifier>{7752fe49-cd29-4c83-97f6-fe9a298097a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\IO\Stream">
+      <UniqueIdentifier>{e449fd48-d00e-4683-a3de-6b3f4fcdc5ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Matlab">
+      <UniqueIdentifier>{62b4e34b-2e30-4322-b72c-9f75c1fd2a24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Matlab">
+      <UniqueIdentifier>{b2b5a5e0-d88a-460d-bca5-12beae2010f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Matlab\File">
+      <UniqueIdentifier>{bdc51526-b24c-4b7a-9046-ad03b8c0986a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Matlab\File">
+      <UniqueIdentifier>{771c73cf-9431-4f6b-8099-2994c6455fff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Matlab\Array">
+      <UniqueIdentifier>{c097ead4-f05f-496d-9954-77f201654719}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Matlab\Array">
+      <UniqueIdentifier>{277b23c7-02ef-4ef7-b9cb-5071d7c4ec07}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Headers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Matlab.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Ml.h">
+      <Filter>Header Files\Matlab</Filter>
+    </ClInclude>
+    <ClInclude Include="MlVar.h">
+      <Filter>Header Files\Matlab</Filter>
+    </ClInclude>
+    <ClInclude Include="MlFile.h">
+      <Filter>Header Files\Matlab\File</Filter>
+    </ClInclude>
+    <ClInclude Include="MlFileOut.h">
+      <Filter>Header Files\Matlab\File</Filter>
+    </ClInclude>
+    <ClInclude Include="MlFileBinary.h">
+      <Filter>Header Files\Matlab\File</Filter>
+    </ClInclude>
+    <ClInclude Include="MlFileBinaryOut.h">
+      <Filter>Header Files\Matlab\File</Filter>
+    </ClInclude>
+    <ClInclude Include="MlFileBinaryIn.h">
+      <Filter>Header Files\Matlab\File</Filter>
+    </ClInclude>
+    <ClInclude Include="MlArray.h">
+      <Filter>Header Files\Matlab\Array</Filter>
+    </ClInclude>
+    <ClInclude Include="MlArrayDouble.h">
+      <Filter>Header Files\Matlab\Array</Filter>
+    </ClInclude>
+    <ClInclude Include="MlArrayLogical.h">
+      <Filter>Header Files\Matlab\Array</Filter>
+    </ClInclude>
+    <ClInclude Include="IoStreamOutMatlab.h">
+      <Filter>Header Files\IO\Stream</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Headers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Matlab.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Ml.cpp">
+      <Filter>Source Files\Matlab</Filter>
+    </ClCompile>
+    <ClCompile Include="MlVar.cpp">
+      <Filter>Source Files\Matlab</Filter>
+    </ClCompile>
+    <ClCompile Include="MlFile.cpp">
+      <Filter>Source Files\Matlab\File</Filter>
+    </ClCompile>
+    <ClCompile Include="MlFileOut.cpp">
+      <Filter>Source Files\Matlab\File</Filter>
+    </ClCompile>
+    <ClCompile Include="MlFileBinary.cpp">
+      <Filter>Source Files\Matlab\File</Filter>
+    </ClCompile>
+    <ClCompile Include="MlFileBinaryOut.cpp">
+      <Filter>Source Files\Matlab\File</Filter>
+    </ClCompile>
+    <ClCompile Include="MlFileBinaryIn.cpp">
+      <Filter>Source Files\Matlab\File</Filter>
+    </ClCompile>
+    <ClCompile Include="MlArray.cpp">
+      <Filter>Source Files\Matlab\Array</Filter>
+    </ClCompile>
+    <ClCompile Include="MlArrayDouble.cpp">
+      <Filter>Source Files\Matlab\Array</Filter>
+    </ClCompile>
+    <ClCompile Include="MlArrayLogical.cpp">
+      <Filter>Source Files\Matlab\Array</Filter>
+    </ClCompile>
+    <ClCompile Include="IoStreamOutMatlab.cpp">
+      <Filter>Source Files\IO\Stream</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

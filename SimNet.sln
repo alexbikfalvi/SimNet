@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SimNet", "SimNet\SimNet.vcxproj", "{569EDFDF-3CC9-4671-A5E5-390656450D18}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MatLib", "MatLib\MatLib.vcxproj", "{CFDBA3B7-A5AA-4168-9BB4-47209B14A05B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SimLib", "SimLib\SimLib.vcxproj", "{F1FB3628-CCDB-4837-B9B9-E880683B7BAB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{569EDFDF-3CC9-4671-A5E5-390656450D18}.Debug|Win32.ActiveCfg = Debug|Win32
+		{569EDFDF-3CC9-4671-A5E5-390656450D18}.Release|Win32.ActiveCfg = Release|Win32
+		{569EDFDF-3CC9-4671-A5E5-390656450D18}.Release|Win32.Build.0 = Release|Win32
+		{CFDBA3B7-A5AA-4168-9BB4-47209B14A05B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CFDBA3B7-A5AA-4168-9BB4-47209B14A05B}.Debug|Win32.Build.0 = Debug|Win32
+		{CFDBA3B7-A5AA-4168-9BB4-47209B14A05B}.Release|Win32.ActiveCfg = Release|Win32
+		{CFDBA3B7-A5AA-4168-9BB4-47209B14A05B}.Release|Win32.Build.0 = Release|Win32
+		{F1FB3628-CCDB-4837-B9B9-E880683B7BAB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F1FB3628-CCDB-4837-B9B9-E880683B7BAB}.Debug|Win32.Build.0 = Debug|Win32
+		{F1FB3628-CCDB-4837-B9B9-E880683B7BAB}.Release|Win32.ActiveCfg = Release|Win32
+		{F1FB3628-CCDB-4837-B9B9-E880683B7BAB}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
